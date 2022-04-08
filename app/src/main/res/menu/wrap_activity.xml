@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add_user"
+        android:icon="@drawable/ic_add_white"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/block_user"
+        android:icon="@drawable/ic_block_user"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/main_icon"
+        android:icon="@drawable/white_flychat_icon"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

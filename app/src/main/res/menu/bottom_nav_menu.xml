@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_internet"
+        android:icon="@drawable/icon_internet"
+        android:title="@string/title_internet" />
+<!--
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/ic_send1"
+        android:title="@string/title_messages" />-->
+
+    <item
+        android:id="@+id/navigation_bluetooth"
+        android:icon="@drawable/icon_bluetooth"
+        android:title="@string/title_bluetooth" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/icon_account"
+        android:title="@string/title_account" />
+
+</menu>

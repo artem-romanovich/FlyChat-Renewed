@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_internet">
+
+    <fragment
+        android:id="@+id/navigation_internet"
+        android:name="com.artrom.flychat.internet.InternetFragment"
+        tools:layout="@layout/fragment_internet" />
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.artrom.flychat.messages.MessagesFragment"
+        tools:layout="@layout/messages_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_bluetooth"
+        android:name="com.artrom.flychat.bluetooth.BluetoothFragment"
+        tools:layout="@layout/fragment_bluetooth" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.artrom.flychat.account.AccountFragment"
+        tools:layout="@layout/fragment_account" />
+</navigation>

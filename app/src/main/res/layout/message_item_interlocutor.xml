@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_message"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10sp"
+    android:layout_marginTop="5sp"
+    android:layout_marginEnd="75sp"
+    android:layout_marginBottom="5sp"
+    android:gravity="start"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_user"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8.5sp"
+            android:layout_marginTop="7.5sp"
+            android:layout_marginStart="7.5sp"
+            android:layout_marginBottom="5sp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="text"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_message"
+        style="@style/FontThinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="5sp"
+        android:layout_marginBottom="1sp"
+        android:gravity="start"
+        android:text="time"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</LinearLayout>

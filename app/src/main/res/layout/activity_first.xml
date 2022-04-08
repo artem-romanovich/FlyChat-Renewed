@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.artrom.flychat.pre.FirstActivity">
+
+    <LinearLayout
+        android:id="@+id/linlay_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15sp"
+            android:background="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:text="@string/explain_location1"
+            android:textColor="#F44336"
+            android:textSize="15sp" />
+
+        <TextView
+            style="@style/Font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="30sp"
+            android:background="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:text="@string/explain_location2"
+            android:textColor="#7D7D7D"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:orientation="vertical"
+                android:padding="4sp">
+
+                <ImageView
+                    android:layout_width="240sp"
+                    android:layout_height="280sp"
+                    android:background="@drawable/location_picture" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_to_settings"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_button"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay_gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnPrimary"
+        android:gravity="center"
+        android:orientation="vertical" />
+
+</LinearLayout>

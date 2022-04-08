@@ -1,0 +1,58 @@
+<resources>
+    //App
+    <string name="app_name">FlyChat</string><!-- Renewed</string>-->
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_internet">Интернет</string>
+    <string name="title_bluetooth">Bluetooth</string>
+    <string name="title_account">Аккаунт</string>
+
+    //System
+    <string name="no_internet">Отсутствует подключение к интернету</string>
+
+    //FirstActivity
+    <string name="explain_location1">Необходим доступ к местоположению в любом режиме</string>
+    <string name="explain_location2">Разрешить доступ можно в любой момент в разделе &quot;разрешения&quot; настроек приложения</string>
+    <string name="location_button">разрешить доступ</string>
+
+    //BottomNavigationActivity
+
+    //RegistrationActivity
+    <string name="welcome_message1">FlyChat Renewed</string>
+    <string name="welcome_message2">Зарегистрируйтесь, чтобы начать</string>
+
+    <string name="email_address">Email адрес</string>
+    <string name="name_surname">Имя и Фамилия</string>
+    <string name="nickname">Придумайте никнейм</string>
+    <string name="strong_password">Надежный пароль</string>
+
+    <string name="above_email_address">Адрес электронной почты:</string>
+    <string name="above_password">Пароль:</string>
+    <string name="above_name_surname">Имя и Фамилия. Придумайте уникальный никнейм:</string>
+
+    <string name="alarm_data">Данные изменить нельзя!</string>
+    <string name="alarm_password">Не сообщайте пароль никому!</string>
+    <string name="alarm_reg">Требуется подтверждение. Письмо отправлено на указаный почтовый адрес.</string>
+    <string name="after_gone_btn">После перехода по ссылке нажмите на кнопку справа</string>
+
+    <string name="get_link">Начать</string>
+    <string name="sign_in">Войти</string>
+
+    <string name="if_sure">Вы уверены?</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+    <string name="empty_field">Пустое поле ввода</string>
+    <string name="already_have_account">Уже есть аккаунт?</string>
+
+    //SignInActivity
+    <string name="authorization">Авторизация</string>
+    <string name="enter_nick">Введите никнейм:</string>
+    <string name="your_nick">Ваш никнейм</string>
+    <string name="enter_password">Введите пароль:</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="title_activity_bottom_navigation2">MainActivity</string>
+    <string name="sign_out">выйти</string>
+    <string name="create">создать</string>
+    <string name="title_messages">Сообщения</string>
+
+</resources>

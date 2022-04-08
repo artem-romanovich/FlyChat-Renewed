@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryVariant"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="5sp"
+    android:paddingBottom="5sp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="30sp"
+            android:gravity="center"
+            android:text="@string/authorization"
+            android:textColor="?attr/colorPrimaryVariant"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:gravity="left"
+            android:text="@string/enter_nick"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="17.5sp" />
+
+        <EditText
+            android:id="@+id/sign_nick"
+            style="@style/FontThinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:layout_marginBottom="20sp"
+            android:digits="0123456789.abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:gravity="center"
+            android:hint="@string/your_nick"
+            android:inputType="text"
+            android:textSize="17.5sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:gravity="left"
+            android:text="@string/enter_password"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="17.5sp" />
+
+        <EditText
+            android:id="@+id/sign_password"
+            style="@style/FontThinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:digits="0123456789.abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:gravity="center"
+            android:hint="@string/your_password"
+            android:inputType="textPassword"
+            android:textSize="17.5sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sign_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="signClick"
+            android:text="@string/sign_in"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>

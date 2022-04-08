@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "38357008076",
+    "firebase_url": "https://flychat-renewed-default-rtdb.firebaseio.com",
+    "project_id": "flychat-renewed",
+    "storage_bucket": "flychat-renewed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38357008076:android:6be8816e8fa98a8992cc69",
+        "android_client_info": {
+          "package_name": "com.artrom.flychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38357008076-49ucknhubh7orcd2pkijsm970b839pco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDThZ-KVIF9Zlgbby-l9jg34QctxF3KhOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38357008076-49ucknhubh7orcd2pkijsm970b839pco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

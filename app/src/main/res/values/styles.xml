@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/btn_selector</item>
+        <!--<item name="android:fontFamily" type="">@font/montserrat_bold</item>-->
+        <item name="android:paddingEnd">15sp</item>
+        <item name="android:paddingStart">15sp</item>
+    </style>
+
+    <style name="Font" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily" type="">@font/montserrat_bold</item>
+    </style>
+
+    <style name="FontThinner" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily" type="">@font/montserrat_medium</item>
+    </style>
+
+    <style name="BottomNavigationText">
+        <item name="android:fontFamily" type="">@font/montserrat_medium</item>
+    </style>
+
+    <style name="BottomNavigationTextSelected">
+        <item name="android:fontFamily" type="">@font/montserrat_bold</item>
+    </style>
+
+    <style name="TextItemsStyle">
+        <item name="android:fontFamily" type="">@font/montserrat_medium</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance">
+        <item name="android:textSize">20sp</item>
+        <!--<item name="android:fontFamily" type="">@font/montserrat_medium</item>-->
+    </style>
+
+    <style name="Widget.App.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TabLayout</item>
+        <item name="tabTextAppearance">@style/MyTabLayoutTextAppearance</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TabLayout" parent="">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorSurface">@color/main_dark_purple</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:dialogCornerRadius" tools:targetApi="p">10dp</item>
+    </style>
+
+    <style name="MySwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="thumbTint">@color/selector_switch_thumb</item>
+    </style>
+
+    <style name="MyFloatButtonStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="AppCompatProgressDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/main_purple</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:colorControlNormal">@color/focused_color</item>
+        <item name="android:colorControlActivated">@color/main_purple</item>
+        <item name="android:colorControlHighlight">@color/transparent</item>
+    </style>
+
+    <style name="RadioDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorControlActivated">@color/main_dark_purple</item>
+    </style>
+
+    <style name="ActionBarButtonStyle">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+</resources>
